@@ -1,0 +1,50 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.main-body {
+  margin: 0px;
+}
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important ;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: asset-url("photo-1505682634904-d7c8d95cdc50.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: white;
+  background: linear-gradient(to right, white, white);
+}
